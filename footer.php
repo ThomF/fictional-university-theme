@@ -1,1 +1,7 @@
-<h2>SILLY FOOTER</h2>
+
+
+
+<!-- This allows for WP to do what it needs before page is closed -->
+<?php wp_footer(); ?>
+</body>
+</html>
