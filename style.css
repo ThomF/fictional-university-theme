@@ -3,3 +3,7 @@ Theme Name: Fictional University
 Author: Thomas
 Version: 0.1.0 beta
 */
+
+body{
+    background-color: bisque;
+}
