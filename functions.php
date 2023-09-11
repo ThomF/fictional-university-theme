@@ -14,3 +14,9 @@ function university_files(){
 
 // within () give two arguments. wp_enqueue is a specific hook to load the function or second argument
 add_action('wp_enqueue_scripts', 'university_files');
+
+function university_features(){
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'university_features');
