@@ -71,8 +71,8 @@
         </div>
       </div>
     </div>
-
-    <div class="hero-slider">
+<!-- FIXME broken image slider? = hero-slider -->
+    <div class="">
       <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg') ?>)">
